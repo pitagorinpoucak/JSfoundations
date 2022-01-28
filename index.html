@@ -80,6 +80,33 @@
 
       const joined = `${badString1}${badString2}`;
       console.log(joined);
+
+      function add7(number) {
+        return number + 7;
+      }
+
+      console.log(add7(45));
+
+      function multiply(num1, num2) {
+        return num1 * num2;
+      }
+
+      console.log(multiply(34, 67));
+
+      function capitalize(string) {
+        let firstLetter = string.toUpperCase();
+        firstLetter = firstLetter.charAt(0);
+        return firstLetter + string.slice(1).toLowerCase();
+      }
+
+      console.log(capitalize("aJme MEni NijE mI DOBro"));
+
+      function lastLetter(string) {
+        let letter = string.charAt(string.length - 1);
+        return letter;
+      }
+
+      console.log(lastLetter("Ajme meni nije mi dobro"));
     </script>
   </body>
 </html>
